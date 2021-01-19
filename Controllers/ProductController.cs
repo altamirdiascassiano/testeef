@@ -5,15 +5,17 @@ using Microsoft.EntityFrameworkCore;
 using testeef.Data;
 using testeef.Models;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 namespace testeef.Controllers{
     
     [ApiController]
     [Route("v1/products")]
+    [Authorize]
     public class ProductController: ControllerBase{
 
         [HttpGet]
-        [Route("")]
+        [Route("")]        
         public async Task<ActionResult<List<Product>>> Get([FromServices] DataContext context){
             return await context.Products.Include(x => x.Category).ToListAsync();                   
         }

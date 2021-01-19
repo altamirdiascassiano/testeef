@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Altamir Dias Cassian\\Documents\\Visual Studio Code\\projects\\testef\\testef.csproj": {}
+    "C:\\Users\\Altamir Dias Cassian\\Documents\\Visual Studio Code\\projects\\testeef\\testef.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Altamir Dias Cassian\\Documents\\Visual Studio Code\\projects\\testef\\testef.csproj": {
+    "C:\\Users\\Altamir Dias Cassian\\Documents\\Visual Studio Code\\projects\\testeef\\testef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Altamir Dias Cassian\\Documents\\Visual Studio Code\\projects\\testef\\testef.csproj",
+        "projectUniqueName": "C:\\Users\\Altamir Dias Cassian\\Documents\\Visual Studio Code\\projects\\testeef\\testef.csproj",
         "projectName": "testef",
-        "projectPath": "C:\\Users\\Altamir Dias Cassian\\Documents\\Visual Studio Code\\projects\\testef\\testef.csproj",
+        "projectPath": "C:\\Users\\Altamir Dias Cassian\\Documents\\Visual Studio Code\\projects\\testeef\\testef.csproj",
         "packagesPath": "C:\\Users\\Altamir Dias Cassian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Altamir Dias Cassian\\Documents\\Visual Studio Code\\projects\\testef\\obj\\",
+        "outputPath": "C:\\Users\\Altamir Dias Cassian\\Documents\\Visual Studio Code\\projects\\testeef\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Altamir Dias Cassian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.2, )"
